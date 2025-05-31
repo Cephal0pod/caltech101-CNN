@@ -214,7 +214,6 @@ Use these artifacts to write your final report, embed plots, and share results.
 
 - All scripts assume you are running from the project root (`caltech101-finetune/`).  
 - Adjust `--data-dir`, `--out-dir`, and hyperparameters (learning rates, batch size, epochs) as needed.  
-- If you see `FileNotFoundError` for `train.txt`/`test.txt`, verify that `data/caltech-101/splits/` exists and contains those two files.  
 - When evaluating multiple runs, ensure each `--log-dirs` contains a valid `runs/` subfolder with `events.out.tfevents.*`.
 
 ---
